@@ -881,12 +881,19 @@ height: 811px;
     text-transform: uppercase;
 }
 
+.tf-heading{
+    margin-top: -120px;
+    margin-bottom: -100px;
+}
+
 .tf-heading .tf-title{
     line-height: 78px;
     letter-spacing: -1.5px;
     font-size: 52px;
     text-transform: uppercase;
     font-weight: 400;
+    margin-top: -45px;
+    margin-bottom: -45px;
 }
 
 .tf-title-style2{
@@ -2157,6 +2164,8 @@ height: 811px;
 
 .wrap-testimonials-slider {
     padding: 8.3% 5% 5% 17.5%;
+    margin-top: -45px;
+    margin-bottom: -150px;
 }
 
 .wrap-testimonials-slider .flaticon-quotation{
@@ -2923,7 +2932,7 @@ height: 811px;
 /* ----------- Page About -----------*/
 /* about-us */
 .tf-section.wrap-about-us-style4{
-    padding: 175px 0 130px 0;
+    /* padding: 175px 0 130px 0; */
 }
 
 .wrap-about-us-style4 .content-heading-wrap {
@@ -2948,7 +2957,7 @@ height: 811px;
 }
 
 .about-inner-image-box{
-    padding: 60px 20px 252px 0;
+    padding: 50px 20px 130px 0;
     background-color: rgba(200,169,106,0.1);;
 }
 
@@ -3010,7 +3019,7 @@ height: 811px;
     width: 366px;
     position: absolute;
     right: 87px;
-    bottom: 104px;
+    bottom: 42px;
 }
 
 .about-inner-image-box .box .icon{

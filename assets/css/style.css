@@ -777,7 +777,7 @@ h6 a {
 }
 
 .tf-section{
-    padding: 130px 0;
+    padding: 25px 0;
     position: relative;
 }
 
@@ -1226,7 +1226,7 @@ h6 a {
 
 #site-header.site-header-inner-page{
     position: absolute;
-    top: 45px;
+    top: 0;
     height: 95px;
     background: url(../img/page-title/imgbg-header.png) no-repeat center center;
     background-size: cover;

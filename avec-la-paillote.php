@@ -19,8 +19,9 @@
 .faq-question {
   font-size: 24px;
   font-weight: bold;
-  margin-bottom: 10px;
+  margin-bottom: 40px;
   cursor: pointer;
+  margin-top: -50px;
 }
 
 .faq-answer {

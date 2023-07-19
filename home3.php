@@ -135,17 +135,19 @@
 #popup button:hover {
   background-color: #0f62fe;
 }
-.page-title {
-
-
-   
-
-
-
-
-    
+.page-title {    
 
 /* background:linear-gradient(150deg,rgba(2,6,9,0.93) 33%,rgba(2,6,9,0) 77%),url("assets/img/slider/img2sliderhome2.jpg") 100% fixed center center; */
+}
+
+.row{
+    /* margin-top: -40px;
+    margin-bottom: -150px; */
+}
+
+#logos{
+    margin-top: 170px;
+    margin-bottom: -40px;
 }
 
 
@@ -251,11 +253,10 @@
                             <div class="col-md-5 col-sm-5 col-xs-12 header-text sectionP60" >
                                 <h1 class="rL white" style="font-size: 36px;">Sublimez votre évènement </h1>
                                 <h1 class="rL white" style="font-size: 36px;">avec une touche exotique</h1>
-                                <p class="rL white">Élevez l'exceptionnel avec une touche d'exotisme pour votre événement.</p>
-
+                                <br> 
                                 <div class="flat-button">
-									<a href="ecommerce/products?layout=product-left-sidebar" class="tf-button color-text color-style1">Découvrez nos prestations</a>
-						</div>
+									<a href="#prestations" class="tf-button color-text color-style1">Découvrez nos prestations</a>
+						</div><br>
                             </div>
                            
                         </div>
@@ -277,6 +278,7 @@
                 <div class="container-fluid cleafix">
                     <div class="row">
                         <div class="col-md-12 cleafix">
+                            <a name="prestations"></a>
                             <div class="content-heading-wrap">
                                 <div class="tf-heading-bg cleafix">
                                     <h2 class="heading-bg-style02 style2 magin-left-12 ">Formula</h2>
@@ -289,7 +291,7 @@
                         </div>
                         <div class="col-md-3">
                             <div class="category-box padding-top2">
-                            <div class="category-inner wow zoomIn animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
+                                <div class="category-inner wow zoomIn animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
                                     <div class="image">
                                         <img src="assets/img/gallery/27.jpg" alt="">
                                     </div>
@@ -554,8 +556,8 @@
                                         </div>
                                         <div class="content-menu-item">
                                             <h4 class="heading">Cocktail d'entreprise en bar paillote </h4>
-                                            <div class="sub-heading">15 pièces cocktail par personne </div>
-                                            <div class="sub-heading">Bar à cocktail service inclus </div>
+                                            <div class="sub-heading">12 pièces cocktail par personne </div>
+                                            <div class="sub-heading">1 Bar à cocktail - service inclus </div>
                                             <div class="pricing">
                                                 <span class="number-underline">95€</span>
                                                 <span class="number">89€ </span> <div class="sub-heading"> à partir de 30 personnes</div>
@@ -806,7 +808,7 @@
                                     <a href="en-livraison-ou-surplace.php">En livraison ou à emporter </a>
                                 </h5>
                                 <p class="sub-heading">
-                                    commandez en ligne, optez pour la livraison ou click & collect à Conflans sainte Honorine
+                                    Commandez en ligne, optez pour la livraison ou click & collect à Conflans sainte Honorine
                                 </p>
                                 <div class="btn-icon-box">
                                     <a class="color-style2" href="en-livraison-ou-surplace.php"><i class="fal fa-arrow-right"></i></a>
@@ -838,7 +840,7 @@
                                     <a href="service-clé-en-main.php">Service clé en main avec Yvlizevents</a>
                                 </h5>
                                 <p class="sub-heading">
-                                    Avec une organisatrice d'évènements certifié
+                                    Une organisatrice d'évènements certifiée
                                 </p>
                                 <div class="btn-icon-box">
                                     <a class="color-style2" href="service-clé-en-main.php"><i class="fal fa-arrow-right"></i></a>
@@ -974,16 +976,13 @@
                                 <div class="sub-heading-style2">
                                 Ôpadalia vous offre la possibilité de voyager tout en restant chez vous, de partager un moment convivial et chaleureux entre amis en famille. La nostalgie n’est plus, car notre paillote, notre île s’invite à domicile pour vous emmener toute la convivialité, le soleil est possible toute l’année avec notre paillote. Notre équipe se chargent de sublimer chaque instant avec émotions autour d’une Paillote spécialement conçu pour s’installer chez vous et vous apporter toute la convivialité et l’ambiance des Caraïbes.
                                 </div>
-                                <div class="flat-button flat-button-style2">
-                                    <a href="ecommerce/products?layout=product-left-sidebar" class="tf-button color-style1">Découvrez nos prestations</a>
-                                </div>
                             </div>  
                                     <div class="box box-countter-chefs flex wow fadeInUp animated" data-wow-delay="0.2ms" data-wow-duration="1300ms">
                                         <div class="icon">
                                             <i class="fal fa-heart"></i>
                                         </div>
                                         <div class="countter-box">
-                                            <span class="number" data-from="0" data-to="1300" data-speed="1300" data-inviewport="yes">1300</span><span>+</span>
+                                            <span class="number" data-from="0" data-to="5000" data-speed="2500" data-inviewport="yes">5000</span><span>+</span>
                                             <h6 class="sub-heading-style2">Client satisfaits</h6>
                                         </div>
                                     </div>
@@ -1011,7 +1010,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-md-6">
+						<div class="col-md-6 mx-auto text-center text-end">
 							<div class="wrap-testimonials-slider">
                                 <div class="swiper-container carousel">
                                     <div class="swiper-wrapper">
@@ -1039,13 +1038,13 @@
 						
 							</div>
 						</div>
-						<div class="col-md-6">
+						<!-- <div class="col-md-6">
 							<div class="image-testimonials">
 								<div class="image wow fadeIn animated" data-wow-delay="0.3ms" data-wow-duration="1500ms">
 									<img src="assets/img/Testimonial/1.jpg" alt="images">
 								</div>
 							</div>
-						</div>
+						</div> -->
 					</div>
 				</div>
 			</section>
@@ -1062,7 +1061,7 @@
                
                     <div class="row">
                     
-                        <div class="col-md-12 cleafix">
+                        <div class="col-md-12 cleafix" id= "logos">
                             <div class="swiper-container carousel-4 margin-79">
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide">

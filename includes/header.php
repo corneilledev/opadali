@@ -34,11 +34,11 @@
     </div>
     <div id="wrapper">
         <div id="page" class="clearfix">
-            <div id="top-bar" class="top-bar-inner-page">
+            <!-- <div id="top-bar" class="top-bar-inner-page">
                 <div class="top-bar-content">
                     <p>Bienvenue à ÔPADALIA</p>
                 </div>
-            </div>
+            </div> -->
             <header id="site-header" class="site-header-inner-page">
                 <div id="site-header-inner" class="container-fluid">
                     <div class="wrap-inner flex">

@@ -1,73 +1,160 @@
 
-            <?php include('includes/header.php'); ?>
-            <style>
-		/* Style pour les icônes */
-		.icon {
-			font-size: 24px;
-			margin-right: 8px;
-		}
+<?php include('includes/header.php'); ?>
+<style>
+/* Style pour les icônes */
+.icon {
+font-size: 24px;
+margin-right: 8px;
+}
 
-        .faq-container {
-  max-width: 800px;
-  margin: 0 auto;
+/* .faq-container {
+max-width: 800px;
+margin: 0 auto;
+}
+
+#custom-margin {
+margin-top: -45px;
+margin-bottom: -60px;
 }
 
 .faq-item {
-  margin-bottom: 20px;
+margin-bottom: 20px;
 }
 
 .faq-question {
-  font-size: 24px;
-  font-weight: bold;
-  margin-bottom: 10px;
-  cursor: pointer;
+font-size: 24px;
+font-weight: bold;
+margin-bottom: 10px;
+cursor: pointer;
 }
 
 .faq-answer {
-  font-size: 18px;
-  display: none;
+font-size: 18px;
+display: none;
 }
 
 .faq-answer.active {
-  display: block;
+display: block;
+} */
+.faq-container {
+max-width: 1000px;
+margin: 0 auto;
+background-color: #f8f9fa;
+padding: 70px;
+}
+
+#custom-margin {
+margin-top: -50px;
+/* margin-bottom: -20px; */
+}
+
+.faq-item {
+margin-bottom: 20px;
+}
+
+.faq-question {
+font-size: 24px;
+font-weight: bold;
+margin-bottom: 10px;
+cursor: pointer;
+}
+
+.faq-answer {
+font-size: 18px;
+display: none;
+padding: 10px;
+border-top: 1px solid #dee2e6;
+}
+
+.faq-answer.active {
+display: block;
+}
+
+h2 {
+color: #d4af37; /* gold color */
+padding-top: 20px;
+font-size: 45px; 
+}
+
+ul {
+  list-style-type: disc;
+    margin-left: 40px; 
+    padding: 10px;
+}
+
+li {
+    list-style-type: disc;
+    line-height: 2;  
+}
+
+p {
+padding-left: 10px;
+}
+
+p, ul, li {
+    font-size: x-large;
+}
+
+@media (max-width: 794px) {
+  .heading {
+    margin-top: -60px;
+  }
+}
+
+@media (max-width: 514px) {
+  .heading {
+    margin-top: -70px;
+  }
+}
+
+@media (max-width: 576px) {
+    h2 {
+        font-size: 40px; 
+    }
+}
+
+@media (max-width: 472px) {
+  .heading {
+    margin-top: -90px;
+  }
 }
 
 
-	</style>
+</style>
 
-          
 
-            <section class="page-title page-title-inner">
-                <div class="overlay-pagetitle"></div>
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="page-title-heading">
-                            <h2 class="heading">Conditions générales de ventes</h2>
-                        </div>
-                        <div class="breadcrumbs">
-                            <ul>
-                                <li><a href="home3.php">Accueil</a></li>
-                                <li>Conditions générales de ventes</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </section><br><br><br>
+
+<section class="page-title page-title-inner">
+    <div class="overlay-pagetitle"></div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="page-title-heading">
+                <h2 class="heading">Conditions générales de ventes</h2>
+            </div>
+            <div class="breadcrumbs">
+                <ul>
+                    <li><a href="home3.php">Accueil</a></li>
+                    <li>Conditions générales de ventes</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section><br><br><br>
 
 <section>
 
 
 <div class="faq-container">
- <h2>Conditions générales de ventes</h2>
- <br><br>
- <h2>Principes</h2>
-    <p>Tous les plats sont élaborés dans nos locaux à partir de produits bruts.</p>
-    <p>Les nouveaux textes communautaires régissant notre profession nous obligent à détruire ou à jeter à l’issue de la réception, tous les produits présentés aux consommateurs et/ou réchauffés.</p>
-    <p>En conséquence, notre société se dégage de toute responsabilité sur les risques encourus dans le cas où le client conserve les produits restants.</p>
-    <p>Dans le cadre des livraisons, nous attirons votre attention qu’il échoit au client de prévoir un mode de conservation ad hoc des denrées.</p>
-    <p>Par mesure d’hygiène, aucune marchandise ne pourra être ni reprise ni échangée.</p>
+<!-- <h2 id="custom-margin">Conditions générales de ventes</h2>
+<br><br> -->
+<h2 id="custom-margin">Principes</h2>
+<p>Tous les plats sont élaborés dans nos locaux à partir de produits bruts.</p>
+<p>Les nouveaux textes communautaires régissant notre profession nous obligent à détruire ou à jeter à l’issue de la réception, tous les produits présentés aux consommateurs et/ou réchauffés.</p>
+<p>En conséquence, notre société se dégage de toute responsabilité sur les risques encourus dans le cas où le client conserve les produits restants.</p>
+<p>Dans le cadre des livraisons, nous attirons votre attention qu’il échoit au client de prévoir un mode de conservation ad hoc des denrées.</p>
+<p>Par mesure d’hygiène, aucune marchandise ne pourra être ni reprise ni échangée.</p>
 
-    <h2>Conditions générales de vente</h2>
+<h2>Conditions générales de vente</h2>
 <p>Les devis sont valables 15 jours à compter de la date du devis.</p>
 <p>Toute commande ne sera définitivement acceptée par la SARL ALIVE que par la remise ou par le retour de l'un des exemplaires du devis et conditions générales de vente, revêtu de la mention "bon pour accord" et signé du client accompagné d'un acompte égal à 50% par chèque ou virement du montant de celui-ci remis en main propre ou à défaut être renvoyées signées par courriel à l’adresse : contact@opadalia.fr</p>
 <p>Le détail du menu, cocktail, repas, ou réception traiteur doit bien être vérifié ainsi que les informations, par le client. Veillez à l’exactitude et à la précision de vos coordonnées, toute erreur ou retard ne pourra être imputé à ALIVE dans le cas d’informations erronées ou en cas de force majeure indépendante de notre volonté. Vous recevrez un e-mail, un SMS de validation de votre commande.</p>
@@ -80,16 +167,16 @@
 <p>En cas de retard de paiement, le Traiteur se réserve le droit de suspendre toutes les commandes en cours, sans préjudice de toute autre voie d’action.</p>
 <p>Nous n’acceptons pas de chèques restaurants.</p>
 
-<h2>Tarifs</h2>
+<h2>1. Tarifs</h2>
 <p>Les tarifs de nos devis le jour de la commande sont fermes pendant la durée de l’option indiquée sur le devis (validité du devis 15 jours). Ces prix pourront être révisés en fonction des cours des produits saisonniers à l’expiration du délai de l’option, en cas de désaccord sur une modification du menu.</p>
 <p>Les prix indiqués sont en euros TTC (TVA au tarif en vigueur), frais de livraison en sus le cas échéant. Si le taux légal de TVA en vigueur a baissé ou augmenté entre la signature du devis et la facturation, le montant TTC de la facture sera modifié en conséquence.</p>
 <p>Ceci est une clause irrévocable et ne fera l’objet d’aucune négociation entre les parties.</p>
 <p>Certaines prestations peuvent donner lieu à des suppléments de facturation :</p>
 <ul>
-  <li>Prestation de restauration supplémentaire ou dépassement de forfait cave.</li>
-  <li>Perte ou casse de matériel constatée à l’issue de la prestation et facturée au coût de remplacement.</li>
-  <li>Le maintien du personnel au-delà des heures indiquées.</li>
-  <li>Frais de déplacement après validation de l’équipe mise en place.</li>
+<li>Prestation de restauration supplémentaire ou dépassement de forfait cave.</li>
+<li>Perte ou casse de matériel constatée à l’issue de la prestation et facturée au coût de remplacement.</li>
+<li>Le maintien du personnel au-delà des heures indiquées.</li>
+<li>Frais de déplacement après validation de l’équipe mise en place.</li>
 </ul>
 <p>Tous frais de fonctionnement annexes demandés par le lieu de réception restent à la charge du client.</p>
 <p>Notre personnel n’est pas formé pour la remise en état du lieu de réception, pour le lendemain en Brunch et ménage de la salle et sanitaire, le client doit s’assurer de la prise en charge de cette prestation lors de la réservation de la salle.</p>
@@ -101,31 +188,31 @@
 <p>Les frais de remise en état résultant des dommages causés aux matériels (ex: verrerie, nappes, assiettes, mobiliers, décoration...) mis à votre disposition seront à votre charge.</p>
 <p>En cas de disparition ou de détérioration de ces matériels, les coûts de remplacement vous seront facturés.</p>
 
-<h2>Facturation</h2>
+<h2>2. Facturation</h2>
 <p>Les factures sont payables à la SARL ALIVE.</p>
 <p>Possibilité de règlement en espèces (euros uniquement), par carte bancaire (règlement sécurisé), par chèque à l’ordre de SARL ALIVE, ou par virement bancaire.</p>
 <p>Coordonnées bancaires :</p>
 <ul>
-  <li>IBAN: FR8820041010125550823U03319</li>
-  <li>BIC: PSSTFRPPSCE</li>
-  <li>Banque: La Banque Postale</li>
-  <li>Guichet: Centre financier</li>
-  <li>Compte: 20041 01012 5550823U033 19</li>
-  <li>Domiciliation: 45900 LA SOURCE CEDEX 9</li>
+<li>IBAN: FR8820041010125550823U03319</li>
+<li>BIC: PSSTFRPPSCE</li>
+<li>Banque: La Banque Postale</li>
+<li>Guichet: Centre financier</li>
+<li>Compte: 20041 01012 5550823U033 19</li>
+<li>Domiciliation: 45900 LA SOURCE CEDEX 9</li>
 </ul>
 <p>Des pénalités de retard peuvent vous être imputées selon les lois en vigueur.</p>
 
-<h2>Facturation du personnel traiteur</h2>
+<h2>3. Facturation du personnel traiteur</h2>
 <p>1 serveur pour 30 à 40 personnes et 1 cuisinier pour 100 personnes est recommandé selon l’organisation de la prestation.</p>
 <p>Toute prestation de personnel traiteur (cuisinier et serveur) :</p>
 <ul>
-  <li>Service du midi à partir de dix-huit heures (18h00)</li>
-  <li>Service du soir à partir d’une heure (1h00)</li>
+<li>Service du midi à partir de dix-huit heures (18h00)</li>
+<li>Service du soir à partir d’une heure (1h00)</li>
 </ul>
 <p>Ces services supplémentaires seront facturés en plus à raison de 45 euros HT par heure et par personne.</p>
 <p>Toute heure entamée est due.</p>
 
-<h2>Annulations - Reports</h2>
+<h2>4. Annulations - Reports</h2>
 <p>Toute résiliation de commande, quelle qu'en soit la cause, entraîne la perte définitive des acomptes versés. Ceux-ci servent de dédit aux fournisseurs. Nous vous fournirons une facture des acomptes pour la prise en charge par votre assureur dans le cas où vous en avez sollicité un pour l'organisation de votre réception.</p>
 <p>En cas de report par le client de la date de réception pour quelque cause que ce soit, l'acompte sera conservé par le Traiteur.</p>
 <p>Ce report ou cette possibilité de nouvelle commande ne sont valables que sur une durée maximale de cinq mois à compter de la date d'annulation et dans la limite des disponibilités de ALIVE.</p>
@@ -133,24 +220,24 @@
 <p>En cas d'annulation hors préavis, l'établissement facturera au client une indemnité égale à 100% du montant TTC des prestations réservées.</p>
 
 
-<h2>Froid et stockage</h2>
+<h2>5. Froid et stockage</h2>
 <p>Aucune marchandise (boisson ou alimentaire) non fournie par nos soins ne sera entreposée et/ou refroidie par nos équipements.</p>
 
-<h2>Alimentaire</h2>
+<h2>6. Alimentaire</h2>
 <p>Alive se décharge de toutes prestations non stipulées au devis.</p>
 
-<h2>Boissons</h2>
+<h2>7. Boissons</h2>
 <p>Toute boisson non fournie par nos soins ne pourra être servie par nos équipes que sur l’établissement au préalable d’un contrat de rémunération. La qualité de la marchandise ainsi que sa température idéale au moment du service restent pour autant sous la responsabilité du client. ALIVE pourra rompre ce contrat à tout moment si toutefois elles pourraient lui porter préjudice et ce sans indemnité d’aucune sorte à reverser au client.</p>
 <p>Les Softs fournis par le client (service & matériel traiteur 3.90 euros/pers)</p>
 <p>Les Vins et Champagnes fournis par le client (service & matériel traiteur 4.90 euros/pers)</p>
 
-<h2>Livraison</h2>
+<h2>8. Livraison</h2>
 <p>Les menus, buffets et cocktails traiteur sont conditionnés en emballage spécifique garantissant le respect de la chaîne du froid de nos locaux à votre lieu de réception. ALIVE ne prendra en compte que les réserves précises émises par le client, au moment de la livraison et figurant sur le bon de livraison ou la facture dûment signé(s) par ce dernier.</p>
 
-<h2>Réclamation</h2>
+<h2>9. Réclamation</h2>
 <p>Aucune réclamation sur le déroulement de la réception ne sera recevable postérieurement au jour de celle-ci. Toute contestation concernant la facture ne pourra être prise en compte au-delà d’un délai de sept jours suivant la date de la facture. Parallèlement, tout retard ou avance sur l’horaire de livraison convenu ne pourra occasionner le non-paiement partiel ou intégral du montant de la facture ou le refus de marchandises. De même, toute erreur de livraison ne pourra être imputée à la société « traiteur l’art des mets » dans le cas d’informations ou de coordonnées erronées. Le Traiteur se réserve le droit de pouvoir modifier ses Conditions Générales de Vente à tout moment. Dans ce cas, les conditions applicables seront celles en vigueur à la date de la commande par le Client.</p>
 
-<h2>Responsabilité</h2>
+<h2>10. Responsabilité</h2>
 <p>La responsabilité de ALIVE, ou de ses partenaires, ne peut pas être engagée au cas où l’inexécution ou le retard dans l’exécution de l’une ou de plusieurs obligations contenues dans le présent contrat résulte d’un cas de force majeure.</p>
 <p>Sont considérés notamment comme cas de force majeure les intempéries exceptionnelles, les catastrophes naturelles, les incendies et inondations, la foudre, les surtensions électroniques, les attentats, les grèves et les restrictions légales ou réglementaires à la fourniture de services de télécommunications, et tout autre événement de force majeure ou cas fortuit au sens de l’article 1148 du Code civil.</p>
 <p>Nous dégageons également notre responsabilité sur des oublis ou des erreurs concernant des menus adaptés à votre demande de type : allergique, sans sel, hallal, casher…</p>
@@ -163,12 +250,12 @@
 <p>La SARL ALIVE est susceptible de reproduire ou de diffuser tout ou une partie des données de l’évènement dans la présentation commerciale de l’agence. Sont considérées comme données de l’évènement les photographies et vidéos en relation avec l’évènement, qui lui auraient été cédées à titre provisoire ou définitif par le client ou prestataires prévus au préalable. Par les présentes, le client reconnaît céder les droits afférents aux données de l’évènement et autoriser expressément leur publication sur Internet ou sur des supports publicitaires au sens de l’article 9 du Code Civil et de la jurisprudence associée, notamment le droit à l’image.</p>
 <p>Le client déclare être informé de la possibilité de refuser toute publication et cession de droits de données de l’évènement en portant la mention « Lu et approuvé, refus de publication et de cession de droit » sur l’exemplaire des présentes.</p>
 
-<h2>Litige</h2>
+<h2>11. Litige</h2>
 <p>Toute difficulté relative à la conclusion ou à l’exécution des ventes et des prestations, devra faire l’objet d’une concertation préalable entre le client et ALIVE.</p>
 <p>En cas de litige de toute nature ou de contestation relative à la formation ou à l’exécution de la commande, le Tribunal du siège social de ALIVE sera seul compétent, à moins que la société ci mentionnée ne préfère saisir toute autre juridiction compétente.</p>
 <p>Cette clause s’applique même en cas de référé, de demande incidente ou de pluralité de défendeurs et quels que soient le mode et les modalités de paiement.</p>
 
 </div>
 </section>
-            
+
 <?php include('includes/footer.php'); ?>

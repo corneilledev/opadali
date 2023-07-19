@@ -2,21 +2,22 @@
             <?php include('includes/header.php'); ?>
             <style>
 		/* Style pour les icônes */
-		.icon {
-			font-size: 24px;
-			margin-right: 8px;
-		}
+.icon {
+	font-size: 24px;
+	margin-right: 8px;
+}
 
-        .faq-container {
+.faq-container {
   max-width: 800px;
   margin: 0 auto;
+  margin-top: -50px;
 }
 
-.faq-item {
+/* .faq-item {
   margin-bottom: 20px;
-}
+} */
 
-.faq-question {
+/* .faq-question {
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 10px;
@@ -30,12 +31,112 @@
 
 .faq-answer.active {
   display: block;
+} */
+
+.faq-section {
+  width: 80%;
+  margin: 100px auto;
+  box-shadow: 0px 0px 35px 0px rgba(154, 154, 154, 0.15);
+  border-radius: 10px;
+  padding: 30px;
 }
 
+.faq-header {
+  font-size: 2rem;
+  color: #333;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.faq-item {
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.faq-item:last-child {
+  border-bottom: none;
+}
+
+.faq-question {
+  font-size: 2.2rem;
+  font-weight: bolder;
+  color: #333;
+  /* font-weight: 600; */
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.faq-reponse{
+  font-size: 2.6rem;
+  color: #333;
+  
+  position: relative;
+}
+
+.faq-question::before {
+  content: '▶'; 
+  position: absolute;
+  left: -25px;
+  transition: all 0.3s ease;
+}
+
+.faq-question.active::before {
+  transform: rotate(90deg); 
+}
+
+.faq-question:hover {
+  color: #007BFF;
+}
+
+.faq-answer {
+  margin-top: 10px;
+  display: none;
+  font-size: x-large;
+}
+
+.faq-answer.active {
+  display: block;
+}
+
+/* Styles for screens smaller than 600px wide */
+
+@media (min-width: 576px) {
+  .faq-container {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+
+@media (max-width: 576px) {
+  .faq-container {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+
+@media (min-width: 768px) {
+  .faq-container {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+
+@media (min-width: 992px) {
+  .faq-container {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .faq-container {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
 
 	</style>
-
-          
 
             <section class="page-title page-title-inner">
                 <div class="overlay-pagetitle"></div>
@@ -55,9 +156,9 @@
             </section><br><br><br>
 
 <section>
-
-
+<!-- container-fluid -->
 <div class="faq-container">
+  <div  class="faq-reponse">Vous avez une question ? Explorez ci-dessous les questions fréquemment posées :</div>
   <div class="faq-item">
     <div class="faq-question">Qui est Ôpadalia ?</div>
     <div class="faq-answer">Ôpadalia est un concept né d’une union entre Un Chef Cuisinier et une weeding planner ensemble ils vous ramènent le soleil lors de tous vos événements autour d’une paillote.</div>
@@ -92,7 +193,28 @@
   </div>
   <!-- Ajoutez ici plus de questions et réponses -->
 </div>
-
 </section>
+
+<script>
+// Waiting for the DOM to finish loading
+document.addEventListener('DOMContentLoaded', function() {
+  var faqItems = document.querySelectorAll('.faq-item');
+
+  faqItems.forEach(function(item) {
+    var question = item.querySelector('.faq-question');
+    var answer = item.querySelector('.faq-answer');
+
+    question.addEventListener('click', function() {
+      // Toggle the 'active' class for the question and answer
+      question.classList.toggle('active');
+      if(answer.style.display === "" || answer.style.display === "none") {
+          answer.style.display = "block";
+      } else {
+          answer.style.display = "none";
+      }
+    });
+  });
+});
+</script>
             
 <?php include('includes/footer.php'); ?>

@@ -56,9 +56,6 @@
                                 <div class="sub-heading-style2">
                                 Ôpadalia vous offre la possibilité de voyager tout en restant chez vous, de partager un moment convivial et chaleureux entre amis en famille. La nostalgie n’est plus, car notre paillote, notre île s’invite à domicile pour vous emmener toute la convivialité, le soleil est possible toute l’année avec notre paillote. Notre équipe se chargent de sublimer chaque instant avec émotions autour d’une Paillote spécialement conçu pour s’installer chez vous et vous apporter toute la convivialité et l’ambiance des Caraïbes.
                                 </div>
-                                <div class="flat-button flat-button-style2">
-                                    <a href="ecommerce/products?layout=product-left-sidebar" class="tf-button color-style1">Découvrez nos prestations</a>
-                                </div>
                             </div>  
                                     <div class="box box-countter-chefs flex wow fadeInUp animated" data-wow-delay="0.2ms" data-wow-duration="1300ms">
                                         <div class="icon">
