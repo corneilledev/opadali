@@ -193,12 +193,12 @@ p, ul, li {
 <p>Possibilité de règlement en espèces (euros uniquement), par carte bancaire (règlement sécurisé), par chèque à l’ordre de SARL ALIVE, ou par virement bancaire.</p>
 <p>Coordonnées bancaires :</p>
 <ul>
-<li>IBAN: FR8820041010125550823U03319</li>
-<li>BIC: PSSTFRPPSCE</li>
-<li>Banque: La Banque Postale</li>
-<li>Guichet: Centre financier</li>
-<li>Compte: 20041 01012 5550823U033 19</li>
-<li>Domiciliation: 45900 LA SOURCE CEDEX 9</li>
+<li>IBAN: FR76 1820 6000 1665 1005 0675 535</li>
+<li>BIC: AGRIFRPP882</li>
+<li>Banque: Crédit agricole</li>
+<li>Guichet: 00016</li>
+<li>Compte: 18206 00016 65100506755 35</li>
+<li>Domiciliation: 78700 CONFLANS STE HONORINE</li>
 </ul>
 <p>Des pénalités de retard peuvent vous être imputées selon les lois en vigueur.</p>
 

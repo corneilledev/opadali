@@ -145,11 +145,21 @@
     margin-bottom: -150px; */
 }
 
-#logos{
+@media (min-width: 992px) {
+    #logos{
     margin-top: 170px;
     margin-bottom: -40px;
 }
 
+#gastronomie{
+    margin-top: -180px;
+    margin-bottom: -180px;
+}
+
+#formula{
+    margin-top: -100px;
+}   
+}
 
 </style>
 
@@ -263,6 +273,7 @@
                     </div>
                 </div>
             </div>
+            <a name="prestations"></a>
         </div>
     </div>
 </section>
@@ -274,16 +285,16 @@
 
 
 			<!-- best category -->
+
 			<section class="tf-section wrap-category-style03">
                 <div class="container-fluid cleafix">
                     <div class="row">
                         <div class="col-md-12 cleafix">
-                            <a name="prestations"></a>
                             <div class="content-heading-wrap">
                                 <div class="tf-heading-bg cleafix">
-                                    <h2 class="heading-bg-style02 style2 magin-left-12 ">Formula</h2>
+                                    <h2 class="heading-bg-style02 style2 magin-left-12" id="formula">Formula</h2>
                                 </div>
-                                <div class="tf-heading text-center">
+                                <div class="tf-heading text-center" id="gastronomie">
                                     <h3 class="tf- tf-title-style3 wow zoomIn animated" data-wow-delay="0.3ms" data-wow-duration="1200ms">Gastronomie Française & Créole</h3>
                                     <p class="tf-sub-heading color-style4">Émerveillez vos papilles gustatives avec une cuisine raffinée faite maison.</p>
                                 </div>
@@ -335,7 +346,7 @@
                                 </div> 
                                  
                             </div>
-                        </div>
+                        </div> 
                         <div class="col-md-3">
                             <div class="category-box padding-top2">
                             <div class="category-inner wow zoomIn animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
@@ -479,7 +490,7 @@
                     </div>
                 </div>
             </section>
-			
+
 			<!-- our menu -->
 			<section class="tf-section wrap-our-menu-style03" style="background-color: black;">
                 <div class="container-fluid cleafix">
